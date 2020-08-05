@@ -1,24 +1,120 @@
-.hamburger {
-    display: inline-block;
-    cursor: pointer;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{font-family: 'Mulish', sans-serif; padding: 0; margin:0;}
+.logo{
+  width: 150px;
+}
+a{
+  text-decoration: none!important;
   
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
+}
+
+.main{
+  background-image: url('img/back.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 93vh;
+  padding-top: 100px ;
+
+}
+
+.content{
+  /* border: 2px solid white; */
+  width: 60%;
+  height: 500px;
+  /* background-color: rgba(255,255,255,1); */
   
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
+  padding-top: 170px;
   
-  .change .bar2 {opacity: 0;}
+}
+
+.content h1{
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-size: 80px;
+}
+.content h4{
+  border-left: 3px solid #002359;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+.content p{
+  text-transform: capitalize;
+}
+
+.buttons{
+  margin-top: 30px;
+}
+
+.btn{
   
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+  padding: 10px 30px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+#ourwork{
+  border: 2px solid orange;
+  color: orange;
+  background-color: transparent;
+  margin-right: 20px;
+}
+#ourwork a{
+  color: orange;
+}
+#contactus{
+  background-color: orange;
+}
+#contactus a{
+  color:white;
+}
+
+.services{
+  padding: 50px 0 ;
+}
+.services h1{
+  text-align: center;
+ 
+}
+.servicecol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-e{
+  transition: 0.3s;
+  margin: 20px;
+ 
+}
+.card-e:hover{
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+@media(max-width:900px){
+
+  .main{
+    padding-top:0 ;
   }
+  .content{
+    padding-top: 70px;
+    width: 100%;
+  }
+  .content h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .buttons{
+    text-align: center;
+  }
+
+  
+}
