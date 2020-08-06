@@ -98,6 +98,35 @@ a{
   z-index: 10;
 }
 
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.underline{
+  width: 200px;
+  height: 3px;
+  background-color: orange;
+  margin-bottom: 50px ;
+}
+
+.choose{
+  background-color: rgb(248, 248, 248);
+  padding: 50px 0;
+}
+.feature{
+  padding: 20px;
+  transition:0.6s;
+  
+}
+.feature img{
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+.feature:hover{
+  box-shadow: 0 12px 50px 4px rgba(0,0,0, 0.2);
+}
 @media(max-width:900px){
 
   .main{
@@ -115,6 +144,8 @@ a{
   .buttons{
     text-align: center;
   }
-
+ .services h1{
+   font-size: 30px;
+ }
   
 }
