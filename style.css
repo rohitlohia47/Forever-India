@@ -127,6 +127,63 @@ a{
 .feature:hover{
   box-shadow: 0 12px 50px 4px rgba(0,0,0, 0.2);
 }
+.footer{
+  background-color: #1d1d1d;
+  padding: 30px 0 20px 0;
+  color: white;
+
+}
+.footer-1 {
+  margin: 20px 0;
+}
+.footer-1 img{
+  width: 200px;
+
+  display: block;
+  margin: auto;
+
+  margin-bottom: 20px;
+}
+.footer-1 p{
+  text-align: center;
+}
+.footer-2{
+  margin: 20px 0;
+}
+.footer-2 h4{
+  color: orange;
+  text-align: center;
+}
+.footer ul{
+  list-style-type: none;
+  text-align: center;
+}
+.footer ul li{
+  margin-bottom: 13px;
+}
+.footer ul li a{
+  color: white;
+}
+.footer ul li a:hover{
+  color: orange;
+}
+.footer-3{
+  margin: 20px 0;
+}
+.footer-3 h4{
+  color: orange;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.social-icons{
+  text-align: center;
+}
+.social-icons i{
+  margin-right: 10px;
+  font-size: 30px;
+  color: white;
+  
+}
 @media(max-width:900px){
 
   .main{
