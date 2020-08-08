@@ -202,7 +202,8 @@ a{
 }
 
 .contact-info img{
-  width: 100%;
+  width: 50%;
+  margin: 20px;
 }
 .contact-info span{
   font-weight: bold;
@@ -230,4 +231,8 @@ a{
  .feature img{
    width: 40px;
  }
+ .contact-info img{
+  width: 100%;
+  margin: 20px;
+}
 }
