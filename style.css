@@ -202,7 +202,7 @@ a{
 }
 
 .contact-info img{
-  width: 600px;
+  max-width: 500px;
 }
 .contact-info span{
   font-weight: bold;
